@@ -1,0 +1,11 @@
+en:
+  activerecord:
+    models:
+      icecast: Streaming Server
+  icecasts:
+    show:
+      undefined: undefined
+    edit:
+      title: Modify Streaming Server
+      submit: Modify
+      cancel: back

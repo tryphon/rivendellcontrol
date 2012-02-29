@@ -1,0 +1,7 @@
+fr:
+  dashboards:
+    show:
+      title: Tableau de bord
+      last_events: Derniers événements
+      monitoring: Supervision
+      see_all_events: Voir tous les événements

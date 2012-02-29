@@ -1,0 +1,10 @@
+en:
+  errors:
+    error_500:
+      title: "An error occurs"
+      message: "A problem avoids the Box application to respond normally to your request. Please contact the <a href='mailto:support@tryphon.eu'>Tryphon support</a> with the following information :"
+fr:
+  errors:
+    error_500:
+      title: "Une erreur est survenue"
+      message: "Un problème empêche l'application de gestion de votre Box de vous répondre comme attendu. Contactez le <a href='mailto:support@tryphon.eu'>support Tryphon</a> en indiquant les informations suivantes :"

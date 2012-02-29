@@ -1,0 +1,12 @@
+###
+# Write "hello world":
+#
+# $ ruby thisfile.rb > out.png
+#
+require 'drb/drb'
+
+SERVER_URI = "druby://eviladmins.org:8787"
+
+DRb.start_service
+sign = DRbObject.new_with_uri(SERVER_URI)
+print sign.write ARGV.join(' ')

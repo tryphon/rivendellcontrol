@@ -1,0 +1,14 @@
+<%= title_tag t(".title") %>
+
+<div class="description">
+  <p>
+    <%= Support.human_attribute_name("boot_check") %> : <% if @support.boot_check == "1" %>Active<%else%>Inactive<%end%>
+  </p>
+  
+  <p>
+    <%= Support.human_attribute_name("poll_check") %> : <% if @support.poll_check == "1" %>Active<%else%>Inactive<%end%>
+  </p>
+</div>
+<div class="actions">
+  <%= link_to t("actions.edit"), edit_support_path, :class => "edit" %>
+</div>

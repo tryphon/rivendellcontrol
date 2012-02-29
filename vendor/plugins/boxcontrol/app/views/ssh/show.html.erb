@@ -1,0 +1,13 @@
+<%= title_tag Ssh.human_name %>
+
+<div class="description">
+  <% if @ssh.authorized_keys %>
+    <%= pluralize @ssh.key_count, Ssh.human_attribute_name("authorized_key"), Ssh.human_attribute_name("authorized_keys") %>
+  <% else %>
+    <%= t ".no_authorized_keys" %>
+  <% end %>
+</div>
+
+<div class="actions">
+  <%= link_to t("actions.edit"), edit_ssh_path, :class => "edit" %>
+</div>

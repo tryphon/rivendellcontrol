@@ -1,0 +1,11 @@
+<%= title_tag SavePoint.human_name %>
+
+<% form_for @save_point, :url => save_point_path do |f| %>
+  <%= f.error_messages %>
+
+  <%= render :partial => 'save_point_warning' %>
+
+  <p>
+    <%= f.submit t(".submit") %> 
+  </p>
+<% end %>

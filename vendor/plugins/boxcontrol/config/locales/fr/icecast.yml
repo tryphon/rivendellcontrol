@@ -1,0 +1,14 @@
+fr:
+  activerecord:
+    models:
+      icecast: Serveur de Diffusion
+    attributes:
+      icecast:
+        source_password: Mot de passe des sources
+  icecasts:
+    show:
+      undefined: aucun
+    edit:
+      title: Modifier le Serveur de Diffusion
+      submit: Modifier
+      cancel: annuler

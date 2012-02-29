@@ -1,0 +1,3 @@
+var/log/rivendellcontrol usr/share/rivendellcontrol/log
+etc/rivendellcontrol/database.yml usr/share/rivendellcontrol/config/database.yml
+etc/rivendellcontrol/production.rb usr/share/rivendellcontrol/config/environments/production.rb

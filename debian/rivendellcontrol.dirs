@@ -1,0 +1,5 @@
+etc/rivendellcontrol
+usr/share/rivendellcontrol
+var/lib/rivendellcontrol
+var/log/rivendellcontrol
+usr/bin

@@ -1,0 +1,12 @@
+fr:
+  activerecord:
+    attributes:
+      input:
+        frequency: Fréquence
+    models:
+      input: Entrée Son
+  inputs:
+    edit:
+      title: "Paramétrer l'Entrée Son"
+      submit: Modifier
+      cancel: revenir

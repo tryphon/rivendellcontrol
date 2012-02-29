@@ -1,0 +1,23 @@
+fr:
+  activerecord:
+    models:
+      release: Mise à jour
+  releases:
+    status:
+      installed: Installée
+      available: Disponible
+      downloaded: Téléchargée
+      download_pending: En cours de téléchargement
+      download_failed: Téléchargement échoué
+    release:
+      since: depuis le
+    index:
+      title: Gestion des Mises à jour
+      available_upgrade: Mise à jour disponible
+      current_release: Version installée
+      no_new_release: "La dernière version est installée. Aucune mise à jour n'est nécessaire"
+    actions:
+      download: Télécharger
+      download_pending: Téléchargement en cours ...
+      install_and_reboot: Installer et redémarrer
+      description: Description

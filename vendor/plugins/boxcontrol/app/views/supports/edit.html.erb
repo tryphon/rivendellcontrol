@@ -1,0 +1,22 @@
+<%= title_tag t(".title") %>
+
+<% form_for @support, :url => support_path do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.check_box :boot_check %>
+    <%= f.label :boot_check, Support.human_attribute_name("boot_check") %><br/>
+  </p>
+
+  <p>
+    <%= f.check_box :poll_check %>
+    <%= f.label :poll_check, Support.human_attribute_name("poll_check") %><br/>
+  </p>
+
+  <p>
+    <%= f.submit t(".submit") %> 
+    <%= t("or") %> <%= link_to "#{t(".cancel")} &#8250;", support_path %>
+  </p>
+
+<% end %>
+

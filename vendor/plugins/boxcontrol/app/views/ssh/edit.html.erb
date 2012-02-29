@@ -1,0 +1,15 @@
+<%= title_tag Ssh.human_name %>
+
+<% form_for @ssh, :url => ssh_path do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :authorized_keys, Ssh.human_attribute_name("authorized_keys") %><br/>
+    <%= f.text_area :authorized_keys %>
+  </p>
+
+  <p>
+    <%= f.submit t(".submit") %> 
+    <%= t("or") %> <%= link_to "#{t('.cancel')} &#8250;", ssh_path %>
+  </p>
+<% end %>

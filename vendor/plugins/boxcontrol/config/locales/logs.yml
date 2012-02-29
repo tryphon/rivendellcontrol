@@ -1,0 +1,20 @@
+en:
+  activerecord:
+    models:
+      log: System Log
+  logs:
+    actions:
+      download: Download
+    show:
+      filter: Filter
+      submit: Rechercher
+fr:
+  activerecord:
+    models:
+      log: Journal du système 
+  logs:
+    actions:
+      download: Télécharger
+    show:
+      filter: Filtre
+      submit: Rechercher

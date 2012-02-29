@@ -1,0 +1,5 @@
+<% if @icecast.available? %>
+   An <%= link_to "Icecast2 stream server", "http://www.icecast.org" %> is available on your StreamBox at this URL : <%= link_to @icecast.url(request.host), @icecast.url(request.host) %>
+<% else %>
+   When the source password is defined, an <%= link_to "Icecast2 stream server", "http://www.icecast.org" %> will be available on your StreamBox.
+<% end %>
