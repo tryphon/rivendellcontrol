@@ -6,4 +6,4 @@ namespace :buildbot do
   end
 end
 
-task :buildbot => ["buildbot:setup", "db:migrate", "db:test:prepare", "spec", "spec:plugins", "cucumber:buildbot"]
+task :buildbot => ["buildbot:setup", "db:migrate", "db:test:prepare", "spec", "spec:plugins", "cucumber:buildbot", "package:binary"]

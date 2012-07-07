@@ -27,6 +27,8 @@ group :test do
   gem 'rspec-rails', '< 2.0'
   gem 'remarkable_rails'
   gem 'rcov'
+
+  gem 'taglib-ruby'
 end
 
 # group :cucumber do
