@@ -1,5 +1,0 @@
-<% if @icecast.available? %>
-   Un <%= link_to "serveur de diffusion Icecast2", "http://www.icecast.org" %> est disponible sur votre StreamBox à cette adresse : <%= link_to @icecast.url(request.host), @icecast.url(request.host) %>
-<% else %>
-   Lorsque le mot de passe des sources sera défini, un <%= link_to "serveur de diffusion Icecast2", "http://www.icecast.org" %> sera disponible sur votre StreamBox.
-<% end %>

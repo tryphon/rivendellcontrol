@@ -1,9 +1,0 @@
-en:
-  activerecord:
-    models:
-      input: Sound Input
-  inputs:
-    edit:
-      title: Modify Sound Input
-      submit: Modify
-      cancel: back
