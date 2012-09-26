@@ -1,6 +1,6 @@
 set :application, "rivendellcontrol"
 
-set :repository,  "git://www.tryphon.priv/rivendellcontrol"
+set :repository,  "git://projects.tryphon.priv/rivendellcontrol"
 set :scm, :git
 set :git_enable_submodules, true
 
