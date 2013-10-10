@@ -2,7 +2,7 @@ Source: rivendellcontrol
 Section: sound
 Priority: optional
 Maintainer: Alban Peignier <alban@tryphon.eu>
-Build-Depends: debhelper, cdbs, rake, rubygems (>= 1.3.7), libopenssl-ruby, libsqlite3-ruby, git-core
+Build-Depends: debhelper, cdbs, rake, rubygems (>= 1.3.7), libopenssl-ruby, libsqlite3-ruby, ruby-dev, git-core
 Standards-Version: 3.8.1
 Homepage: http://projects.tryphon.eu/rivendellcontrol
 
