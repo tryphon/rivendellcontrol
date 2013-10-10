@@ -2,7 +2,7 @@ Source: rivendellcontrol
 Section: sound
 Priority: optional
 Maintainer: Alban Peignier <alban@tryphon.eu>
-Build-Depends: debhelper, cdbs, rake, rubygems (>= 1.3.7), libopenssl-ruby, libsqlite3-ruby
+Build-Depends: debhelper, cdbs, rake, rubygems (>= 1.3.7), libopenssl-ruby, libsqlite3-ruby, git-core
 Standards-Version: 3.8.1
 Homepage: http://projects.tryphon.eu/rivendellcontrol
 
@@ -10,7 +10,7 @@ Package: rivendellcontrol
 Architecture: all
 Depends: ruby, libsqlite3-ruby, rake, rubygems, irb
 Recommends: libapache2-mod-passenger
-Description: Web interface to manage audio streams created with a 
+Description: Web interface to manage audio streams created with a
  RivendellBoxes system
  .
  See <http://projects.tryphon.eu/rivendellboxes/> for more info.
