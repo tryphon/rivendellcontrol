@@ -35,11 +35,11 @@
         <h2>RivendellBox<sup>beta</sup></h2>
 
         <ul>
-          <li><%= link_to Network.human_name, network_path %></li>
+          <li><%= link_to Network.human_name, networks_path %></li>
           <li><%= link_to Ssh.human_name, ssh_path %></li>
           <li><%= link_to Log.human_name, log_path %></li>
           <li><%= link_to SavePoint.human_name, new_save_point_path %></li>
-          <li><%= link_to Release.human_name, releases_path %></li>
+          <li><%= link_to Box::Release.human_name, releases_path %></li>
         </ul>
 
         <p class="languages">

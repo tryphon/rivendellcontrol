@@ -17,7 +17,10 @@ config.action_controller.perform_caching             = false
 config.action_mailer.raise_delivery_errors = false
 
 config.to_prepare do
-  Release.latest_url = "public/updates/latest.yml"
-  Release.current_url = "public/current.yml"
-  Release.install_command = "/bin/true"
+  Box::Release.latest_url = "public/updates/latest.yml"
+  Box::Release.current_url = "public/current.yml"
+  Box::Release.install_command = "/bin/true"
+
+  require 'facter'
+  Network.interface_ids = Facter.value("interfaces").split(",").grep(/^(eth|wlan)/)
 end

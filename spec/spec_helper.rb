@@ -54,6 +54,10 @@ Spec::Runner.configure do |config|
 
   config.before(:suite) do
     PuppetConfiguration.configuration_file = "tmp/config_test.pp"
+
+    Box::Release.latest_url = "public/updates/latest.yml"
+    Box::Release.current_url = "public/current.yml"
+    Box::Release.install_command = "/bin/true"
   end
 
 end

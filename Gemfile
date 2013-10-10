@@ -1,4 +1,4 @@
-source :gemcutter
+source 'https://rubygems.org'
 
 gem "rails", "2.3.8"
 gem "rack", "~> 1.1.0"
@@ -8,6 +8,8 @@ gem "will_paginate", "~> 2.3.11"
 gem "SyslogLogger"
 gem "delayed_job", "= 2.0.4"
 gem "metalive", "0.0.1"
+
+gem "tryphon-box", :git => "git://projects.tryphon.priv/box"
 
 group :development do
   gem "sqlite3-ruby"
