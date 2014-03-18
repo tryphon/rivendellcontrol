@@ -2,25 +2,6 @@ GIT
   remote: git://projects.tryphon.priv/box
   revision: d0e9dba56e304e29a493bbf8f99c4fc5de6a1765
   specs:
-
-GIT
-  remote: git://projects.tryphon.priv/boxcontrol
-  revision: 9c0fb661f3d159b573e21783aa9df619bcb82d81
-  branch: rails3
-  specs:
-
-GIT
-  remote: git://projects.tryphon.priv/user-interface
-  revision: 6cbec074e973b2279c02f249377c575f2aae179f
-  branch: rails3
-  specs:
-    user_interface (0.0.1)
-      rails (>= 3.1.3)
-      will_paginate (~> 3.0.2)
-
-PATH
-  remote: ~/Projects/Box
-  specs:
     tryphon-box (0.0.16)
       activesupport
       facter
@@ -29,8 +10,10 @@ PATH
       treetop
       trollop
 
-PATH
-  remote: ~/Projects/BoxControl
+GIT
+  remote: git://projects.tryphon.priv/boxcontrol
+  revision: 9c0fb661f3d159b573e21783aa9df619bcb82d81
+  branch: rails3
   specs:
     boxcontrol (0.0.1)
       draper (~> 1.3)
@@ -42,6 +25,15 @@ PATH
       strip_attributes
       tryphon-box
       user_interface
+
+GIT
+  remote: git://projects.tryphon.priv/user-interface
+  revision: 6cbec074e973b2279c02f249377c575f2aae179f
+  branch: rails3
+  specs:
+    user_interface (0.0.1)
+      rails (>= 3.1.3)
+      will_paginate (~> 3.0.2)
 
 GEM
   remote: https://rubygems.org/
@@ -242,7 +234,7 @@ GEM
     ruby_parser (3.4.1)
       sexp_processor (~> 4.1)
     rubyzip (0.9.9)
-    sass (3.3.2)
+    sass (3.3.3)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
@@ -252,7 +244,7 @@ GEM
       multi_json (~> 1.0)
       rubyzip (< 1.0.0)
       websocket (~> 1.0.4)
-    sexp_processor (4.4.1)
+    sexp_processor (4.4.2)
     shoulda-matchers (2.5.0)
       activesupport (>= 3.0.0)
     simplecov (0.8.2)
