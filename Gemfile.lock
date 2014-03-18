@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: git://projects.tryphon.priv/boxcontrol
-  revision: 9c0fb661f3d159b573e21783aa9df619bcb82d81
+  revision: d208f68174815d78afdd64539daf511672796211
   branch: rails3
   specs:
     boxcontrol (0.0.1)
