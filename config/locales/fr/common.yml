@@ -1,4 +1,0 @@
-fr:
-  time:
-    formats:
-      log: "%d %B %Y %H:%M:%S"

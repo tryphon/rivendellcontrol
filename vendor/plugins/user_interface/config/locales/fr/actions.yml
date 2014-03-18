@@ -1,7 +1,0 @@
-fr:
-  actions:
-    show: Voir
-    edit: Modifier
-    destroy: Supprimer
-  destroy:
-    confirm: "Confirmez vous la suppression ?"

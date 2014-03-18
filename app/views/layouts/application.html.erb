@@ -3,11 +3,8 @@
   <head>
     <title>RivendellBox - <%= title %></title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link href="/stylesheets/reset.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/tryphon.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/boxcontrol.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
+    <%= favicon_link_tag 'ui/favicon.ico' %>
+    <%= stylesheet_link_tag "application" %>
   </head>
   <body class="<%= controller.controller_name %> <%= controller.action_name %>">
     <ul id="access">
@@ -35,11 +32,10 @@
         <h2>RivendellBox<sup>beta</sup></h2>
 
         <ul>
-          <li><%= link_to Network.human_name, networks_path %></li>
-          <li><%= link_to Ssh.human_name, ssh_path %></li>
-          <li><%= link_to Log.human_name, log_path %></li>
-          <li><%= link_to SavePoint.human_name, new_save_point_path %></li>
-          <li><%= link_to Box::Release.human_name, releases_path %></li>
+          <li><%= link_to Ssh.model_name.human, ssh_path %></li>
+          <li><%= link_to Log.model_name.human, log_path %></li>
+          <li><%= link_to SavePoint.model_name.human, new_save_point_path %></li>
+          <li><%= link_to Box::Release.model_name.human, releases_path %></li>
         </ul>
 
         <p class="languages">
@@ -48,7 +44,7 @@
 
         <h2><%= t(".information.title") %></h2>
         <p>
-          <%= t(".information.text") %>
+          <%= t(".information.text").html_safe %>
         </p>
 
       </div>
@@ -59,7 +55,6 @@
         &nbsp;
       </div>
     </div>
-    <%= javascript_include_tag :defaults %>
-    <%= user_voice_feedback %>
+    <%= javascript_include_tag "application" %>
   </body>
 </html>

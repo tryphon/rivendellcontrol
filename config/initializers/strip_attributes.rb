@@ -1,1 +1,0 @@
-ActiveForm::Base.extend(StripAttributes)

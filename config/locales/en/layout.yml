@@ -1,9 +1,0 @@
-en:
-  layouts:
-    application:
-      dashboard: Dashboard
-      help: Help
-      information: 
-        title: Information
-        text: | 
-          For more information about <a href="http://www.tryphon.eu/en/products/rivendellboxes">RivendellBoxes</a>, please visit our website: <a href="http://www.tryphon.eu/fr">tryphon.eu</a>

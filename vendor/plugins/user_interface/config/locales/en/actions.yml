@@ -1,7 +1,0 @@
-en:
-  actions:
-    show: Show
-    edit: Edit
-    destroy: Destroy
-  destroy:
-    confirm: Are you sure to destroy it ?
