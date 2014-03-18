@@ -1,4 +1,10 @@
-rivendellcontrol (0.1-1) UNRELEASED; urgency=low
+rivendellcontrol (0.2-1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Alban Peignier <alban@tryphon.eu>  Tue, 18 Mar 2014 07:12:01 +0100
+
+rivendellcontrol (0.1-1) unstable; urgency=low
 
   * Initial release
 
