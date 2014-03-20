@@ -8,7 +8,7 @@ Homepage: http://projects.tryphon.eu/projects/rivendellcontrol
 
 Package: rivendellcontrol
 Architecture: all
-Depends: ruby1.9.1, irb
+Depends: ruby1.9.1 (>= 1.9.3)
 Recommends: libapache2-mod-passenger
 Description: Web interface to manage audio streams created with a
  RivendellBoxes system
