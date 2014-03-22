@@ -14,7 +14,7 @@ gem 'inherited_resources'
 gem 'draper', '~> 1.3'
 
 gem 'rails-i18n'
-gem "SyslogLogger", "~> 2.0"
+gem "SyslogLogger", "~> 2.0", :require => "syslog/logger"
 
 # Gems used only for assets and not required
 # in production environments by default.
