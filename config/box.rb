@@ -19,3 +19,4 @@ Box::Release.install_command = "/bin/true"
 Box.start_default_options = { :config => __FILE__ }
 
 Box::PuppetConfiguration.configuration_file = "tmp/config.pp"
+Box::PuppetConfiguration.system_update_command = "/bin/true"
