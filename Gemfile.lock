@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: git://projects.tryphon.priv/boxcontrol
-  revision: dd7ee8495772e55c287e0a8f8d3138a80f92b53c
+  revision: 77d48e940fc18cb6f813b007d65818c3968b06ab
   branch: rails3
   specs:
     boxcontrol (0.0.1)
@@ -268,7 +268,7 @@ GEM
       cocaine (= 0.2.1)
       json
       parallel
-    strip_attributes (1.5.0)
+    strip_attributes (1.5.1)
       activemodel (>= 3.0, < 5.0)
     temple (0.6.7)
     terminal-table (1.4.5)
