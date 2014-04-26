@@ -8,7 +8,7 @@ build:
 
 	bundle exec rake db:create db:migrate assets:precompile RAILS_ENV=production
 
-	rm vendor/bundle/ruby/*/cache/*.gem
+	rm -rf vendor/bundle/ruby/*/cache
 	rm -f config/database.yml
 
 install:
