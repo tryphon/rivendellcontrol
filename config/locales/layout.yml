@@ -3,10 +3,10 @@ fr:
     application:
       information:
         text: |
-          Pour plus d'information à propos de <a href="http://www.tryphon.eu/fr/produits/rivendellbox">RivendellBox</a>, visitez notre site&nbsp;: <a href="http://www.tryphon.eu/fr">tryphon.eu</a>
+          Pour plus d'information à propos de <a href="http://www.tryphon.eu/fr/produits/rivendellboxes">RivendellBox</a>, visitez notre site&nbsp;: <a href="http://www.tryphon.eu/fr">tryphon.eu</a>
 en:
   layouts:
     application:
       information:
         text: |
-          For more information about <a href="http://www.tryphon.eu/fr/produits/rivendellbox">RivendellBox</a>, please visit our website: <a href="http://www.tryphon.eu/fr">tryphon.eu</a>
+          For more information about <a href="http://www.tryphon.eu/en/products/rivendellboxes">RivendellBox</a>, please visit our website: <a href="http://www.tryphon.eu/en">tryphon.eu</a>
