@@ -38,4 +38,6 @@ RivendellControl::Application.configure do
   config.to_prepare do
     load Rails.root.join("config", "box.rb")
   end
+
+  config.secret_token = Digest::SHA256.hexdigest('StageControl')
 end
