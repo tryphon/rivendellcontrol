@@ -12,7 +12,7 @@ build:
 	rm -f config/database.yml
 
 install:
-	cp -a app bin script public vendor config lib db ${DESTDIR}usr/share/rivendellcontrol
+	cp -a app script public vendor config lib db ${DESTDIR}usr/share/rivendellcontrol
 	cp -a Rakefile config.ru Gemfile Gemfile.lock .bundle ${DESTDIR}usr/share/rivendellcontrol
 	rm -f ${DESTDIR}usr/share/rivendellcontrol/config/environments/production.rb
 	cp debian/database.yml debian/production.rb debian/apache2.conf ${DESTDIR}etc/rivendellcontrol/
