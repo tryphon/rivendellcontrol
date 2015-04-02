@@ -12,10 +12,10 @@ GIT
 
 GIT
   remote: git://projects.tryphon.priv/boxcontrol
-  revision: acc446093a39c88aaa40e9e8b788d6458eccdd3a
-  branch: rails3
+  revision: fc6b3b0fd4afd0870d60dc0bbde82a32add0ea7c
   specs:
     boxcontrol (0.0.1)
+      activeresource
       draper (~> 1.3)
       dynamic_form
       inherited_resources
@@ -28,8 +28,7 @@ GIT
 
 GIT
   remote: git://projects.tryphon.priv/user-interface
-  revision: e3c91163deba91d1cb92b1a981d9b5647dce59dc
-  branch: rails3
+  revision: 4f63d69bde7f5cd5f287cd4c287bd3346215392e
   specs:
     user_interface (0.0.1)
       rails (>= 3.1.3)
