@@ -15,8 +15,8 @@ Box::Release.latest_url = "http://dev.tryphon.priv/dist/rivendellboxes/latest.ym
 Box::Release.current_url = "public/current.yml"
 Box::Release.install_command = "/bin/true"
 
+Box::PuppetConfiguration.configuration_file = "tmp/config.pp"
+Box::PuppetConfiguration.deploy_command = "/bin/true"
+
 # Use this script to initialize Box commands executed in background
 Box.start_default_options = { :config => __FILE__ }
-
-Box::PuppetConfiguration.configuration_file = "tmp/config.pp"
-Box::PuppetConfiguration.system_update_command = "/bin/true"
